@@ -20,6 +20,6 @@ No exemplo abaixo temos dois triângulos, então aplicando o teorema SAT, estamo
 
 <br />
 
-Abaixo temos uma animação que facilita a compreensão do teorema.
+Abaixo temos uma animação que facilita a compreensão do teorema e do porquê caso exista pelo menos **1** eixo de separação (marcado em verde) garante que os objetos **NÃO** estão colidindo.
 
 <img src="SAT-simulation.gif" width="800" />
