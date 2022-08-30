@@ -1,8 +1,8 @@
-[Home](../README.md#game-engine-2d---collisions) / [Definições](../README.md#definições) / [Polígono](./polygon.md)
+[Home](../README.md#home) / [Definições](../README.md#definitions) / [Polígono](./polygon.md#polygon)
 
 ___
 
-# Polígono
+<h1 id="polygon">Polígono</h1>
 
 É uma linha fechada inteiramente formada por segmentos de reta que não se cruzam, exceto em suas extremidades.
 
@@ -12,7 +12,7 @@ Note na figura abaixo que apenas o último desenho da direita é um polígono, p
 
 ![](./assets/polygon.png)
 
-### Polígonos convexos e não convexos
+<h3 id="convex__not-convex">Polígonos convexos e não convexos</h3>
 
 Um polígono é chamado convexo quando, dados os pontos A e B em seu interior, o segmento AB está totalmente contido no interior do polígono, independentemente da posição dos pontos AB. Dessa forma, é impossível encontrar dois pontos AB no interior do polígono, de modo que pelo menos um ponto do segmento AB esteja no exterior desse polígono.
 

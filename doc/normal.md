@@ -1,8 +1,8 @@
-[Home](../README.md#game-engine-2d---collisions) / [Definições](../README.md#definições) / [Normal](./normal.md)
+[Home](../README.md#home) / [Definições](../README.md#definitions) / [Normal](./normal.md#normal)
 
 ___
 
-# Normal
+<h1 id="normal">Normal</h1>
 
 Em geometria, uma *normal* é um objeto, como uma linha ou vetor, que é perpendicular a uma superfície em um dado ponto. Ou seja, se temos uma linha, sua normal seria um vetor a 90° de sua direção.
 
