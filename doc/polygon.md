@@ -10,7 +10,7 @@ Note na figura abaixo que apenas o último desenho da direita é um polígono, p
 
 > **Segmento de reta**: Uma linha que é limitada por dois pontos, A e B.
 
-![](./assets/polygon.png)
+<img src="./assets/polygon.png" width="200" />
 
 <h3 id="convex__not-convex">Polígonos convexos e não convexos</h3>
 
@@ -18,4 +18,4 @@ Um polígono é chamado convexo quando, dados os pontos A e B em seu interior, o
 
 No caso de encontrar, pelo menos, um segmento AB com ao menos um ponto no **exterior do polígono**, então essa figura é chamada *não convexa*.
 
-![](./assets/convex__not-convex.png)
+<img src="./assets/convex__not-convex.png" width="200" />

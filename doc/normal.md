@@ -8,4 +8,4 @@ Em geometria, uma *normal* é um objeto, como uma linha ou vetor, que é perpend
 
 No exemplo abaixo temos um polígono com 4 lados e estamos identificando a normal de cada face (n1, n2, n3 e n4):
 
-![](./assets/normal.png)
+<img src="./assets/normal.png" width="300" />

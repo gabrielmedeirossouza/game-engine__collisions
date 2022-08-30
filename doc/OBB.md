@@ -6,4 +6,4 @@ ___
 
 OBB é um termo muito utilizado quando tratamos de geometria. Em uma definição simplória, *OBB* são caixas que podem estar rotacionadas/não orientadas em seu eixo.
 
-![](./assets/OBB.png)
+<img src="./assets/OBB.png" width="200" />
