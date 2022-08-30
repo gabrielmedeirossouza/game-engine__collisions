@@ -10,7 +10,7 @@ O intuito desse repositório é estudar os teoremas citados acima afim de buscar
 
 [SAT](./src/SAT/doc/README.md) - Um dos sistemas de colisão mais utilizados junto com o GJK.
 
-## Definições
+## Definições gerais
 
 [Polígono](./doc/polygon.md)
 
