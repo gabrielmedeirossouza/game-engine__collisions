@@ -4,6 +4,6 @@ ___
 
 <h1 id="obb">OBB - Oriented Bounding Boxes</h1>
 
-OBB é um termo muito utilizado quando tratamos de geometria. Em uma definição simplória, *OBB* são caixas que podem estar rotacionadas/não orientadas em seu eixo.
+OBB é um termo muito utilizado quando tratamos de geometria. Em uma definição simplória, *OBB* são caixas que podem estar rotacionadas/não orientadas em relação ao seu próprio eixo.
 
 <img src="./assets/OBB.png" width="200" />
