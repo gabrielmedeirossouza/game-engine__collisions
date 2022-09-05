@@ -1,54 +1,27 @@
-import { SAT } from '@/collisions/SAT'
-import { Vector2 } from '@/math/vector2'
+import { Canvas } from '@/renderer'
+import { SAT } from '@/collisions'
+import { Vector2 } from '@/math'
 
-const canvas = document.querySelector('canvas')!
-const context = canvas.getContext('2d')!
-
-function draw(vertices: Vector2[], origin = Vector2.zero): void {
-	context.beginPath()
-	context.translate(origin.x, origin.y)
-	context.moveTo(vertices[0].x, vertices[0].y * -1)
-
-	vertices.forEach((vertex) => {
-		context.lineTo(vertex.x, vertex.y * -1)
-	})
-
-	context.stroke()
-	context.fill()
-	context.closePath()
-}
-
-canvas.addEventListener('mousemove', (event) => {
-	context.clearRect(0, 0, 9999, 9999)
+Canvas.canvas.addEventListener('mousemove', (event) => {
+	Canvas.Refresh()
 
 	const shapeA = [
-		new Vector2(450, -200), // x50 y-100
-		new Vector2(500, -300), // x100
-		new Vector2(400, -300),
-	]
-
-	const shapeC = [
-		new Vector2(650, -200), // x50 y-100
-		new Vector2(700, -300), // x100
+		new Vector2(550, -200),
 		new Vector2(600, -300),
+		new Vector2(500, -300),
 	]
 
-	const shapeB = [
+	const shapeMain = [
 		new Vector2(50 + event.offsetX, 0 - event.offsetY),
 		new Vector2(100 + event.offsetX, -100 - event.offsetY),
 		new Vector2(0 + event.offsetX, -100 - event.offsetY),
 	]
 
-	draw(shapeA)
-	draw(shapeB)
-	draw(shapeC)
+	Canvas.Polygon(shapeMain, "black")
+	Canvas.Polygon(shapeA, "blue")
 
-	const shapesToCheck = [
-		shapeA,
-		shapeC
-	]
+	const isCollidingA = SAT.IntersectPolygonPolygon(shapeMain, shapeA).isColliding
 
-	const isColliding = shapesToCheck.some((shape) => SAT.IntersectPolygonPolygon(shapeB, shape).isColliding)
-	console.log(isColliding)
+	console.log(isCollidingA)
 })
 

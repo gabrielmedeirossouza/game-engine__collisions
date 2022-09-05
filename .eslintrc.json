@@ -24,9 +24,7 @@
     }
   },
   "ignorePatterns": [
-    "vite.config.js",
-    "doc/**/*",
-    "./public"
+    "vite.config.js"
   ],
   "rules": {
     "import/extensions": [

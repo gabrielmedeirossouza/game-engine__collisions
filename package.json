@@ -4,7 +4,6 @@
   "author": "Gabriel Medeiros Souza <gmsgabrielmedeiros@gmail.com>",
   "version": "0.0.0",
   "private": true,
-  "main": "src/main.ts",
   "license": "MIT",
   "scripts": {
     "serve": "vite",

@@ -1,4 +1,4 @@
-import { Vector2 } from '@/math/vector2'
+import { Vector2 } from '@/math'
 import { IntersectPolygonPolygon } from './intersect-polygon-polygon'
 
 export class SAT {
